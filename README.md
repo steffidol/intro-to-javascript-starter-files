@@ -1,4 +1,4 @@
-# Javascript
+# Introducton to Javascript
 
 In this repository you will find the starter files for all the CBF Academy Intro to Javascript sessions
 
