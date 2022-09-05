@@ -1,4 +1,4 @@
-# Javascript Session 8 starter files
+# JavaScript Session 8 starter files
 
 Starter files:
 
