@@ -3,10 +3,15 @@
 
 var a = 5;
 var b = 10;
-var c= a + b;
+var c = a + b;
 
-console.log(c);
+// Expected output 15
+console.log("Original output: " + c);
 
 a = 20;
 
-console.log(c);
+console.log("After a has been updated: " + c);
+
+c = a + b;
+
+console.log("After c has been updated to use the new a: " + c);
