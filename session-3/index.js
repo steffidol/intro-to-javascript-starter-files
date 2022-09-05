@@ -5,12 +5,25 @@ var a = 5;
 var b = 10;
 var c = a + b;
 
-console.log(c);
+// Expected output 15
+console.log("Original output: " + c);
 
 a = 20;
 
-console.log(c);
+// Expected output 30, but it's actually 15
+console.log("After a has been updated: " + c);
 
 c = a + b;
 
-console.log(c);
+// Expected output 30
+console.log("After c has been updated to use the new a: " + c);
+
+// BONUS ACTIVITY: What we entered into the console in session 2:
+/*
+
+5
+2 + 2
+'Hello'
+'Hey,' + 'how are you?'
+
+*/
