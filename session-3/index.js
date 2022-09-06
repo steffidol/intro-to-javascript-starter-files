@@ -18,6 +18,10 @@ c = a + b;
 // Expected output 30
 console.log("After c has been updated to use the new a: " + c);
 
+
+
+
+
 // BONUS ACTIVITY: What we entered into the console in session 2:
 /*
 
@@ -27,3 +31,11 @@ console.log("After c has been updated to use the new a: " + c);
 'Hey,' + 'how are you?'
 
 */
+
+
+
+// FUNCTIONS
+
+function sayHey() {
+    console.log("Hey!");
+}
