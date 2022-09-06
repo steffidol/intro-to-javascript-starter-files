@@ -14,3 +14,11 @@ github:
     addBadge: false
     # add a label once the prebuild is ready to pull requests (defaults to false)
     addLabel: prebuilt-in-gitpod
+
+tasks:
+  - name: Start web server
+    init: python -m http.server 8000
+
+ports:
+  - port: 8000
+    onOpen: open-preview
