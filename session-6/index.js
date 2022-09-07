@@ -1,4 +1,4 @@
-// ****************************************************TASK 1****************************************************
+// ************************ Arrays and pop() ***************************
 
 
 
@@ -9,7 +9,7 @@
 
 
 
-// ****************************************************TASK 2****************************************************
+// ************************* SORTING *******************
 
 
 
@@ -19,7 +19,7 @@
 
 
 
-// ****************************************************TASK 3****************************************************
+// ********************* LOOPING AND CHAINING **********************
 
 // Notice the backticks enclosing t'challa. Read https://www.javascripttutorial.net/es6/javascript-template-literals/ for an explanation on template literals
 const people = [
@@ -28,8 +28,7 @@ const people = [
   { name: 'killmonger', age: 32 },
 ];
 
-// This is a helper function that should be used in the final task of the session.
-// You should pass this function to the sort method to sort the ages of each individiual in the people array of objects
-function compare(a, b) {
-  return a.age - b.age;
+// This is a helper function, to be used when sorting:
+function compare(personA, personB) {
+  return personA.age - personB.age;
 }
