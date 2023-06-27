@@ -1,9 +1,9 @@
 // This is a comment in JavaScript
 // You can see where this file is connected to your HTML in the index.html on line 14
 
-var a = 5;
-var b = 10;
-var c = a + b;
+let a = 5;
+const b = 10;
+let c = a + b;
 
 // Expected output 15
 console.log("Original output: " + c);
@@ -22,20 +22,22 @@ console.log("After c has been updated to use the new a: " + c);
 
 
 
-// BONUS ACTIVITY: What we entered into the console in session 2:
-/*
-
-5
-2 + 2
-'Hello'
-'Hey,' + 'how are you?'
-
-*/
+console.log(5)
+console.log(2 +2)
+console.log('Hello')
+console.log('Hey,' + 'how are you?')
 
 
+     // FUNCTIONS
 
-// FUNCTIONS
+     function sayHey(name) {
+        console.log("Hey " + name + "!");
+     }
 
-function sayHey() {
-    console.log("Hey!");
-}
+function conversation(name,topic){
+    sayHey(name)
+    console.log("How are you");
+    console.log("Goodbye");
+
+
+    conversation()
