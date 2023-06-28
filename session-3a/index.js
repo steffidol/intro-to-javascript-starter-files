@@ -18,26 +18,45 @@ c = a + b;
 // Expected output 30
 console.log("After c has been updated to use the new a: " + c);
 
+console.log(5);
+console.log(2 + 2);
+console.log("Hello");
+console.log("Hey," + "how are you?");
 
+// FUNCTIONS
 
+// function sayHey(name) {
+//     console.log("Hey " + name + "!");
+// }
 
+const sayHey = (name) => "Hey " + name + "!";
 
-console.log(5)
-console.log(2 +2)
-console.log('Hello')
-console.log('Hey,' + 'how are you?')
+console.log(sayHey("Harjeet"));
 
+// function conversation(name, topic){
+//    sayHey(name)
+//    console.log("Do you like " + topic + "?")
 
-     // FUNCTIONS
+// }
 
-     function sayHey(name) {
-        console.log("Hey " + name + "!");
-     }
+const conversation = (name, topic) =>
+  sayHey(name) + ", Do you like " + topic + "?";
 
-function conversation(name,topic){
-    sayHey(name)
-    console.log("How are you");
-    console.log("Goodbye");
+console.log(conversation("Harjeet", "food"));
 
+function sayDay() {
+  return "Thursday";
+}
 
-    conversation()
+const day = () => "It is Thursday";
+
+console.log(day());
+
+// function futureAge(current_age){
+//     let futureAge = current_age + 5
+//     return futureAge
+// }
+
+const futureAge = (current_age) => current_age + 5;
+
+console.log(futureAge(30));
